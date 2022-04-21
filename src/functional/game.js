@@ -20,7 +20,7 @@ const findWinner = gameState => ({
     ...gameState,
     winner: gameState.players.reduce(
         (winner, playerState) =>
-            winner || playerState.guessedNumber === gameState.houseGuess ? playerState : null,
+            winner != null ? winner : playerState.guessedNumber === gameState.houseGuess ? playerState : null,
         null
     )
 });
