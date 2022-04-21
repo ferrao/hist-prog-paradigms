@@ -1,0 +1,32 @@
+{
+    "name": "hist-prog-paradigms",
+    "version": "0.0.1",
+    "description": "History of Programming Paradigms",
+    "scripts": {
+        "clean": "rimraf dist",
+        "build": "webpack",
+        "start": "webpack-dev-server --hot"
+    },
+    "dependencies": {
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1",
+        "spectacle": "^8.0.0",
+        "spectacle-mdx-loader": "^0.1.1"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.12.8",
+        "@babel/preset-react": "^7.12.7",
+        "babel-loader": "^8.0.6",
+        "css-loader": "^5.2.7",
+        "file-loader": "^5.0.2",
+        "html-webpack-plugin": "^3.2.0",
+        "prompts": "^2.4.0",
+        "prop-types": "^15.7.2",
+        "raw-loader": "^4.0.0",
+        "rimraf": "^3.0.0",
+        "style-loader": "^2.0.0",
+        "webpack": "^4.41.4",
+        "webpack-cli": "^3.3.10",
+        "webpack-dev-server": "^3.10.1"
+    }
+}
